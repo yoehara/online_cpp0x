@@ -19,16 +19,16 @@ This file has no header.
 Defaults are: iteration=1, margin=0.0, bias=0.0
 
 ###Example
- %wget http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/news20.binary.bz2
- %bzip2 -dc news20.binary.bz2|./mknews20
- %./perceptron_binary news20.train news20.test 10 0.6
- Accuracy: 4819/4996=0.964572
- Zerofication rate: 334121/1355194=0.246548
+  %wget http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/news20.binary.bz2
+  %bzip2 -dc news20.binary.bz2|./mknews20
+  %./perceptron_binary news20.train news20.test 10 0.6
+  Accuracy: 4819/4996=0.964572
+  Zerofication rate: 334121/1355194=0.246548
 
 "Accuracy" = # of correct answers / # of data.
 "Zerofication rate" = # of zero features / # of all the features.
 
 ##References
-![LIBSVM Data: Classification (Binary Class)](http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html)
-![oll](http://code.google.com/p/oll/)
+-![LIBSVM Data: Classification (Binary Class)](http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html)
+-![oll](http://code.google.com/p/oll/)
 
