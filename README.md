@@ -8,5 +8,5 @@ Currently  implemented:
 Tested on gcc 4.6.0 over a Linux environment.
 
 ##References
--![oll](http://code.google.com/p/oll/)
+-http://code.google.com/p/oll/
 
