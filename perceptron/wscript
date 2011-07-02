@@ -1,0 +1,5 @@
+def build(bld):
+  bld(features = 'cxx cprogram',
+      source = 'perceptron_binary.cpp',
+      target = 'perceptron_binary',
+      includes = ['.'])
