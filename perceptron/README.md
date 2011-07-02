@@ -29,6 +29,6 @@ Defaults are: iteration=1, margin=0.0, bias=0.0
 "Zerofication rate" = # of zero features / # of all the features.
 
 ##References
--LIBSVM Data: Classification (Binary Class) http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
--oll http://code.google.com/p/oll/
+ - LIBSVM Data: Classification (Binary Class) http://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
+ - oll http://code.google.com/p/oll/
 
