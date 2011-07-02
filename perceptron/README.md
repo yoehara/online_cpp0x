@@ -1,14 +1,6 @@
-#Online Learners in c++0x
-
-Online machine learning algorithms in c++0x.
-
--perceptron
-
-Tested on gcc 4.6.0 over a Linux environment.
-
-##Perceptron in one file
-pereptron_binary.cpp impelements a 2-class margin perceptron.
-This file has no header.
+##perceptron_binary.cpp
+impelements a 2-class margin perceptron in one file. 
+mknews20.cpp shuffles data from the news20.binary dataset and creates news20.train and news20.test.
 
 ###Build
  %g++ -std=c++0x -O2 perceptron_binary.cpp -o perceptron_binary
