@@ -21,8 +21,7 @@ struct weight_t: vector<val_t>{
   inline val_t operator*(const datum_t& datum) const{
     val_t sum = 0.0;
     for(const auto& p : datum.second)
-        sum += this->at(p.first) * p.second;
-        //sum += (*this)[p.first] * p.second;
+        sum += (*this)[p.first]* p.second;
     return sum; 
   }
 };
