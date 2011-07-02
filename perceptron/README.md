@@ -4,9 +4,10 @@ mknews20.cpp shuffles data from the news20.binary dataset and creates news20.tra
 
 ###Build
 Requires c++0x features with "Range-based for", which gcc 4.6.0 or higher supports. Tested on gcc 4.6.0. 
+
 ```
-    % g++ -std=c++0x -O2 perceptron_binary.cpp -o perceptron_binary
-    % g++ -O2 mknews20.cpp -o mknews20
+% g++ -std=c++0x -O2 perceptron_binary.cpp -o perceptron_binary
+% g++ -O2 mknews20.cpp -o mknews20
 ```
 
 ###Usage
