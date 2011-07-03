@@ -27,8 +27,7 @@ struct weight_t: vector<val_t>{
 };
 
 struct perceptron_t{
-  val_t    margin;
-  weight_t weight;
+  weight_t weight; val_t    margin;
   perceptron_t(int size, val_t margin_=0.0): weight(size),  margin(margin_)   {}
   inline clabel_t classify(const datum_t& datum) const{ return weight*datum>0.0?1:-1; }
   inline void     train   (const datum_t& datum){
@@ -71,7 +70,7 @@ int main(int argc, char** argv){
   val_t margin = 0.0;  iss >> margin;
   val_t bias   = 0.0;  iss >> bias; 
 
-  data_t training_data; fid_t maxfid = readFile(training_data, trainingfile, bias)+1;   
+  data_t training_data; fid_t maxfid = readFile(training_data, trainingfile, bias);   
 
   perceptron_t p(maxfid + 1, margin); srand(1);
   for(int i=0;i<niteration;++i) {
